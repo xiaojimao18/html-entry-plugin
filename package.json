@@ -1,0 +1,15 @@
+{
+  "name": "html-entry-plugin",
+  "version": "1.0.0",
+  "description": "A webpack plugin that helps you deal with the entry htmls",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cowx liu",
+  "license": "ISC",
+  "devDependencies": {
+    "lodash": "^4.13.1",
+    "recursive-readdir-sync": "^1.0.6"
+  }
+}
