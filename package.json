@@ -1,6 +1,6 @@
 {
   "name": "html-entry-plugin",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A webpack plugin that helps you deal with the entry htmls",
   "main": "index.js",
   "scripts": {
