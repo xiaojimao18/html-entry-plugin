@@ -1,7 +1,6 @@
 var fs = require('fs')
 var _ = require('lodash')
 var path = require('path')
-var recursive = require('recursive-readdir-sync')
 
 var options = {
   src: '',    // 需要迁移到dist的源代码路径
@@ -32,7 +31,6 @@ HTMLEntryPlugin.prototype.apply = function(compiler) {
       var pattern = new RegExp(extName + '$')
 
       listFiles(dirPath).forEach(function(filePath) {
-        console.log(filePath)
         var match = filePath.match(pattern)
 
         if (match) {

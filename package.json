@@ -1,7 +1,11 @@
 {
   "name": "html-entry-plugin",
-  "version": "1.0.7",
+  "version": "1.1.0",
   "description": "A webpack plugin that helps you deal with the entry htmls",
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/xiaojimao18/html-entry-plugin"
+	},
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
