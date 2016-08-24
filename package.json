@@ -1,6 +1,6 @@
 {
   "name": "html-entry-plugin",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A webpack plugin that helps you deal with the entry htmls",
   "main": "index.js",
   "scripts": {
@@ -9,8 +9,7 @@
   "author": "Cowx Liu",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^4.13.1",
-    "recursive-readdir-sync": "^1.0.6"
+    "lodash": "^4.13.1"
   },
   "homepage": "https://github.com/xiaojimao18/html-entry-plugin"
 }
