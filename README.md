@@ -24,7 +24,7 @@ I think the ideal solution should be:
 
 Installation
 ------------
-`npm i html-entry-plugin`
+`npm install --save-dev html-entry-plugin`
 
 
 Usage
@@ -73,7 +73,7 @@ The reference should be the entry name written in webpack config, and the ext na
 
 安装
 ----
-`npm i html-entry-plugin`
+`npm install --save-dev html-entry-plugin`
 
 
 使用方法
